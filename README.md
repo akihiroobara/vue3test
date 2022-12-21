@@ -21,7 +21,33 @@ If the standalone TypeScript plugin doesn't feel fast enough to you, Volar has a
 
 See [Vite Configuration Reference](https://vitejs.dev/config/).
 
-## Project Setup
+## 構築手順
+
+公式ガイドも参照。 https://vuejs.org/guide/quick-start.html#creating-a-vue-application
+
+### プロジェクト作成
+
+以下コマンドにて `create-vue` をインストールし実行してVue3プロジェクトを作成する。
+
+```sh
+npm init vue@latest
+```
+
+いくつか質問されるので以下のように回答する。
+
+```
+Project name: ... vue3test
+Add TypeScript? ... Yes
+Add JSX Support? ... No
+Add Vue Router for Single Page Application development? ... Yes
+Add Pinia for state management? ... Yes
+Add Vitest for Unit Testing? ... No
+Add an End-to-End Testing Solution? » No
+Add ESLint for code quality? ... Yes
+Add Prettier for code formatting? ... Yes
+```
+
+### 必要なライブラリをインストール
 
 ```sh
 npm install
